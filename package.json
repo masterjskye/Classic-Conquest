@@ -1,0 +1,17 @@
+{
+  "name": "classic-conquest",
+  "version": "1.1.0",
+  "description": "Classic Conquest turn-based strategy game prototype",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js"
+  },
+  "keywords": [
+    "game",
+    "strategy",
+    "prototype"
+  ],
+  "author": "",
+  "license": "MIT"
+}
