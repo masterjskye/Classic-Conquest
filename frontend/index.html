@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classic Conquest Prototype</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Classic Conquest</h1>
+      <p>Turn-based strategy prototype</p>
+    </header>
+
+    <main>
+      <section class="panel">
+        <h2>How to Play</h2>
+        <ol>
+          <li>Click one of your blue units.</li>
+          <li>Then click an adjacent tile to move.</li>
+          <li>If an enemy red unit is on that tile, you capture it.</li>
+          <li>Capture all enemy units to win.</li>
+        </ol>
+        <button id="resetBtn">Reset Game</button>
+        <p id="status"></p>
+      </section>
+
+      <section class="board-wrapper">
+        <div id="board" aria-label="Game board"></div>
+      </section>
+    </main>
+
+    <script src="game.js"></script>
+  </body>
+</html>
